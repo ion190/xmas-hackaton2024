@@ -1,5 +1,4 @@
-!!! MAX presentation time 5 min
-
+Requirements of the project
 
 Ana
 - fact checking
