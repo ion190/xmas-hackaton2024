@@ -1,0 +1,5 @@
+groq~=0.13.1
+nltk~=3.9.1
+scikit-learn~=1.6.0
+gensim~=4.3.3
+vaderSentiment~=3.3.2

@@ -1,0 +1,56 @@
+/* Header.css */
+.header {
+	background-color: #1a2d42;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 0;
+	height: 68px;
+	/* Drop shadow */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	transform: translateY(4px);
+}
+
+/* Stilurile pentru butoanele implicite */
+.default {
+    font-family: "Overpass", sans-serif;
+	height: 68px;
+	width: 108px;
+	outline: none;
+	border: none;
+	background-color: #1a2d42; /* Culoare implicită */
+	color: white;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* Stilurile pentru butoanele active */
+.active {
+    font-family: "Overpass", sans-serif;
+	height: 68px;
+	width: 108px;
+	box-shadow: 0 8px 4px #aab7b7;
+	background-color: #aab7b7; /* Culoare când butonul este activ */
+	color: white;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.default:hover {
+    background-color: #3C4A66; /* Culoare mai deschisă când se face hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Umbra la hover */
+}
+
+

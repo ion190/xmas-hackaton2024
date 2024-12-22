@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap");
+
+.news-page {
+	box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
+	background: linear-gradient(to bottom, #aab7b7 0%, #c0c8ca 50%);
+	font-family: "Overpass", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin: auto;
+	font-family: Arial, sans-serif;
+	padding-bottom: 36px;
+}
+
+.news-title {
+	font-size: 2rem;
+	margin-bottom: 20px;
+    color: #1a2d42;
+}
+
+.news-container {
+    max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.news-item {
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	transition: transform 0.2s ease;
+}
+
+.news-item img{
+    width: 128px;
+    height: 128px;
+}
+
+.news-item:hover {
+	transform: scale(1.05);
+}
+
+.news-link {
+	text-decoration: none;
+	color: #007bff;
+	font-weight: bold;
+}
+
+.news-link:hover {
+	text-decoration: underline;
+}

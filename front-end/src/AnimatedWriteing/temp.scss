@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
+
+/* Apoi actualizezi font-family */
+.rotating-text {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    color: white;
+    transform: translateX(15%);
+	text-align: left;
+    
+
+	p {
+		display: inline-flex;
+		margin: 0;
+		vertical-align: top;
+
+		.word {
+			position: absolute;
+			display: flex;
+			opacity: 0;
+
+			.letter {
+				transform-origin: center center 25px;
+
+				&.out {
+					transform: rotateX(90deg);
+					transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+				}
+				&.in {
+					transition: 0.38s ease;
+				}
+				&.behind {
+					transform: rotateX(-90deg);
+				}
+			}
+		}
+	}
+}
+
+// palette: https://flatuicolors.com/palette/defo
+.alizarin {
+    margin-left:10px;
+	color: #3498db;
+}
+
+.wisteria {
+    margin-left:10px;
+	color: #3498db;
+}
+
+.peter-river {
+    margin-left:10px;
+	color: #3498db;
+}
+
+.emerald {
+    margin-left:10px;
+	color: #3498db;
+}
+
+.sun-flower {
+    margin-left:10px;
+	color: #3498db;
+} 

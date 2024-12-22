@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap");
+
+/* Apoi actualizezi font-family */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Overpass", sans-serif;
+}
+
+/* Home Page Styles */
+.home-page {
+    font-family: "Overpass", sans-serif;
+	box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
+	background: linear-gradient(to bottom, #aab7b7 0%, #c0c8ca 50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 100vh;
+	text-align: center;
+}
+
+.rectangle {
+	background: linear-gradient(to right, #2e4156 0%, #658ebc 100%);
+	margin-bottom: 20px;
+	width: 100%;
+	height: 260px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rectangle img {
+	width: 304px;
+	margin-right: 28px;
+}
+
+.TextWrapperFront {
+	height: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Meassajul {
+    font-family: "Overpass", sans-serif;
+	max-width: 380px;
+	transform: translateX(20px) translateY(68px);
+	color: white;
+	font-size: 11px;
+	text-align: left;
+    word-spacing: 1px;
+    font-weight: 50;
+}
+
+.textarea-container {
+	margin-bottom: 20px;
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ForRelativePos{
+    width: calc(80% + 20px);
+    max-width: 1000px;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+}
+
+.input-textarea {
+    font-family: "Overpass", sans-serif;
+	background-color: #aab7b7;
+	max-width: 1000px;
+	width: 100%;
+	height: 64px;
+	padding: 20px 20px;
+	font-size: 1rem;
+	border-radius: 12px;
+	border: 1px solid #ccc;
+	resize: none;
+	transition: all 0.3s ease;
+	color: #1A2D42;
+}
+
+
+
+.submit-button{
+    font-family: "Overpass", sans-serif;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 106px;
+    height: 104px;
+    background-color:#2e4156;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 0px 12px  0;
+    opacity: 90%;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
+.submit-button:hover {
+    background-color: #1b2838; /* Schimbă culoarea de fundal la hover */
+    color: #c0f3ff; /* Schimbă culoarea textului */
+    
+    opacity: 100%; /* Crește opacitatea la hover */
+}
+
+.input-textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.input-textarea:focus {
+	outline: none; /* Elimină conturul implicit */
+	border-color: #0056b3; /* Culoare de bordură când textarea este focusată */
+	box-shadow: 0 0 10px #2e4156; /* Efect de umbră pe focus */
+}
+
+.InputParagraf{
+    font-family: "Overpass", sans-serif;
+    margin: auto;
+    margin-bottom:10px ;
+    width: 80%;
+    font-weight: bold;
+    font-size: 34px;
+    
+    max-width: 1000px;
+    color: #1a2d42;
+    
+}
+
+
+/* Personalizarea barei de scroll */
+::-webkit-scrollbar {
+    width: 6px; /* Lățimea barei de scroll verticală */
+    height: 6px; /* Înălțimea barei de scroll orizontale */
+}
+
+/* Personalizarea capului barei de scroll */
+::-webkit-scrollbar-thumb {
+    background-color: #1A2D42; /* Culoarea capului barei de scroll */
+    
+    border: 3px solid #1A2D42; /* Conturul capului barei */
+}
+
+

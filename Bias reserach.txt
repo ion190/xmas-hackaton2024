@@ -1,0 +1,53 @@
+!!! Mai bine traduce in engleza inainte de procesare
+
+
+Methods:
+    A. In a void:
+        1. Sentiment and emotional analysis 
+            - asses overall tone
+
+            ~ VADER
+                * computes neg, neu, pos and overall sentiment from 0 to 1
+
+
+
+        2. Keyword and Framing Analysis
+            - identify term weights
+
+            ~TF-IDF
+                * extracts key terms
+            ~ Topic Modeling
+                * extracts topics
+
+
+
+        3. Logical fallacy detection 
+            - identify logic flaws 
+            - identify one-sided argument
+
+            ~Machine Learning
+            ~NLP
+
+        
+
+        4. Diversity of perspective
+            - extract speakers, 
+            sentiments (pos, neu, neg)
+
+            ~ Named entity Recognition,
+            VADER?
+
+    B. Using external context:
+        1. Get score from monitoring organizations
+        2. Rely on their previous activity
+
+
+
+
+Resurse:
+    - Mediacritica: Indice de CREDIBILITATE la portale de stiri cu scor https://mediacritica.md/cji-a-evaluat-credibilitatea-a-40-de-site-uri-de-stiri-pe-media-radar-rezultatele-clasamentului/
+    - Stopfals: Aflii daca informatia este un FALS pentru a scade scorul lor
+
+
+
+
